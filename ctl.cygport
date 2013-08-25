@@ -1,0 +1,24 @@
+NAME="ctl"
+VERSION=1.4.1
+RELEASE=2
+CATEGORY="Libs"
+SUMMARY="Color Transformation Language library (sources)"
+DESCRIPTION="The Color Transformation Language, or CTL, is a small programming
+language that was designed to serve as a building block for digital color
+management systems.  CTL allows users to describe color transforms in a
+concise and unambiguous way by expressing them as programs."
+HOMEPAGE="http://ampasctl.sourceforge.net/"
+SRC_URI="mirror://sourceforge/ampasctl/ctl-${VERSION}.tar.gz"
+
+PATCH_URI="
+	http://pkgs.fedoraproject.org/cgit/CTL.git/plain/ctl-1.4.1-fix_pkgconfig.patch
+	http://pkgs.fedoraproject.org/cgit/CTL.git/plain/ctl-1.4.1-gcc43.patch
+	http://pkgs.fedoraproject.org/cgit/CTL.git/plain/ctl-1.4.1-gcc47.patch
+	1.4.1-exeext.patch
+"
+
+PKG_NAMES="libIlmCtl2 libIlmCtl-devel"
+libIlmCtl2_CONTENTS="usr/bin/*-2.dll"
+libIlmCtl_devel_CONTENTS='usr/include/ usr/lib/ usr/share/doc/'
+
+MAKEOPTS+=" docdir=/usr/share/doc/${NAME}"

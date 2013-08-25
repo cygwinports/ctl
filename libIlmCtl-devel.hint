@@ -1,9 +1,0 @@
-category: Graphics
-requires: libIlmCtl2 libilmbase-devel
-external-source: ctl
-sdesc: "Color Transformation Language library (development)"
-ldesc: "The Color Transformation Language, or CTL, is a small 
-programming language that was designed to serve as a building block for 
-digital color management systems.  CTL allows users to describe color 
-transforms in a concise and unambiguous way by expressing them as 
-programs."
