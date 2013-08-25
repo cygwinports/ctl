@@ -2,7 +2,7 @@ NAME="ctl"
 VERSION=1.4.1
 RELEASE=2
 CATEGORY="Libs"
-SUMMARY="Color Transformation Language library (sources)"
+SUMMARY="Color Transformation Language library"
 DESCRIPTION="The Color Transformation Language, or CTL, is a small programming
 language that was designed to serve as a building block for digital color
 management systems.  CTL allows users to describe color transforms in a
