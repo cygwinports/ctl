@@ -1,6 +1,6 @@
 NAME="ctl"
 VERSION=1.4.1
-RELEASE=2
+RELEASE=3
 CATEGORY="Libs"
 SUMMARY="Color Transformation Language library"
 DESCRIPTION="The Color Transformation Language, or CTL, is a small programming
